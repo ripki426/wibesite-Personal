@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengayam Tradisi, Menjalin Ekonomi Lokal</title>
+    <style>
+        /* Mengatur gaya umum */
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            background-image: url(Mengayam\ Tradisi.jpg);
+            background-size: cover; /* Gambar menyesuaikan ukuran layar */
+            
+        /* Navbar dengan gradasi */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            color: rgb(252, 250, 250)
+            padding: 10px;
+        }
+        
+        .navbar a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Efek hover transparan */
+        }
+        
+        /* Konten utama */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        
+        /* Konten dinamis */
+        .content-section {
+            display: none;
+            padding: 20px;
+            background-color: lightblue;
+            border: 1px solid #ddd;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+        }
+
+        .content-section.active {
+            display: block;
+        }
+
+        /* Gaya untuk tiga kolom dengan kolom tengah lebih lebar */
+        .columns {
+            display: flex;
+            gap: 30px;
+        }
+
+        .column {
+            background: linear-gradient(135deg, #f8f9fa, #ecf0f1); /* Gradasi lembut abu */
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        /* Kolom tengah lebih lebar */
+        .column:first-child, .column:last-child {
+            flex: 1;
+        }
+
+        .column:nth-child(2) {
+            flex: 2; /* Kolom tengah dua kali lebih besar */
+        }
+
+        /* Efek hover untuk kolom */
+        .column:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(135deg, #e0e7ec, #ffffff); /* Gradasi hover */
+        }
+
+        /* Warna heading di kolom */
+        .column h3 {
+            color: #3498db; /* Warna biru terang */
+            margin-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a onclick="showContent('Sejarah')">Sejarah</a>
+        <a onclick="showContent('Proses Pembuatan Kain')">Proses Pembuatan Kain</a>
+        <a onclick="showContent('Pemasaran')">Pemasaran</a>
+    </div>
+
+    <div class="container">
+        <!-- Konten Dinamis -->
+        <div id="Sejarah" class="content-section"> 
+            <h2>Sejarah</h2>
+            <div class="columns">
+                <div class="column">
+                    <h3>Selamat Datang, Salam Kenal;)</h3>
+                    <img src="Gambar WhatsApp 2024-11-30 pukul 19.14.19_e8b987db.jpg" width="105" height="110"/>
+                    <p> Terima kasih sudah berkunjung. Perkenalkan saya Ripki Amalia Agustina;)</p>
+                    
+                </div>
+                <div class="column">
+                    <p><img src="tenuntoak.jpg" width="500" height="300"</p>
+                    <p style="text-align: justify; text-indent: 50px;">
+                        Kain tenun Pringgasela, keindahannya sudah diakui hingga mancanegara. Kain tenun yang berasal dari Desa Pringgasela, Lombok, Nusa Tenggara Barat (NTB), itu merupakan warisan leluhur.
+                        Kain tenun Pringgasela sudah ada jauh sebelum Belanda menjajah Indonesia. Jejak sejarah kain tenun Pringgasela tercermin dari adanya kain yang berumur ratusan tahun serta penenun masih menggunakan alat tenun tradisional yang digerakkan dengan tangan, yakni gedongan.
+                        Menurut penenun kain Pringgasela, sejarah kain tenun Pringgasela bermula dari tradisi orang tua di sana. Untuk memingit sang anak gadis, orang tua di Desa Pringgasela pun mengajarkan kerajinan tenun. Dengan menenun, diharapkan anak gadis mereka tak ke luar rumah.
+                        Baca artikel detiknews, "Mengenal Asal-usul Kain Tenun Pringgasela Lewat Rumah Digital Indonesia" selengkapnya https://news.detik.com/berita/d-5694969/mengenal-asal-usul-kain-tenun-pringgasela-lewat-rumah-digital-indonesia.
+                    </p>
+                </div>
+                <div class="column">
+                    <img src="boteng tunggal.jpg" width="230" height="150"
+                    <p>Boteng Tunggal. Foto: TEMPO.CO</p>
+                    <p style="text-align: justify; text-indent: 30px;">
+                        Tradisi yang sudah ada sejak 850 tahun yang menggambarkan sejarah perjalanan tenun. Tradisi ini dilaksanakan pada saat-saat tertentu, seperti pergantian pemimpin atau pernikahan pewaris asli dari Tunggul.
+                        Warisan budaya yang konon sudah berusia delapan abad ini, adalah tradisi sakral mengiringi upacara gawe desa. Tradisi ini sebagai cermin sejarah perjalanan tenun Pringgasela.
+                        Boteng berarti berdiri dan tunggul adalah kain tenun -- yang dibuat pertama kali oleh tokoh tenun setempat, Lebai Nursini. Kini tunggul atau kain tenun tersebut diperkirakan telah berumur sekitar 850 tahun -- atau berada di  tangan generasi pewaris ke-17. https://www.tempo.co/hiburan/boteng-tunggul-tradisi-ratusan-abad-dari-desa-pringgasela--705543
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="Proses Pembuatan Kain" class="content-section">
+            <h2>Proses Pembuatan Kain</h2>
+            <div class="columns">
+                <div class="column">
+                    <img src="motif.jpg" width="300" height="150"
+                    <p>Motif ragi bayan.</p>
+                    <img src="kayu.jpg" width="300" height="150"
+                    <p>Pewarna alami.</p>
+                    <img src="benang.jpg" width="300" height="150"
+                    <p>Alat tradisional tenun.</p>
+                </div>
+                <div class="column">
+                    <p style="text-align: justify; text-indent: 50px;">
+                    <p><iframe width="470" height="350" src="https://www.youtube.com/embed/PmEZW1c6zy4?si=aK1wFHoP0IVKXbx9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+                    <p>Proses pembuatan kain tenun Pringgasela, Lombok, meliputi beberapa tahap, yaitu:</p>
+                    <p style="text-align: justify; text-indent: 50px;">
+                        Nenasin benang, Memuyun, Menghane, Nyusuk suri, Begulung, Meleting. 
+                        Kain Tenun Pringgasela, Lombok Timur. Dalam proses pembuatan kain tenun, limbah yang dihasilkan berupa kanji yang bisa digunakan kembali untuk nenasin benang berikutnya. Benang putus yang masih bisa digunakan juga digabung dan dipilin saat proses memuyun. 
+                        Kain tenun Pringgasela memiliki ukuran panjang yang beragam, bahkan bisa mencapai 4 meter. Untuk menghasilkan satu kain tenun Pringgasela, dibutuhkan waktu sekitar 2 minggu. 
+                        Tenun adalah teknik pembuatan kain dengan cara memasukkan benang pakan secara horizontal ke dalam benang lungsi yang ditata vertikal pada alat tenun. Teknik ini sudah ada sejak zaman dahulu dan menjadi salah satu warisan budaya. 
+                    </p>
+                </div>
+                <div class="column">
+                    <p style="text-align: justify; text-indent: 50px;">
+                       Pemintalan Benang,
+                       Benang dipintal agar siap digunakan dalam proses pewarnaan dan penenunan.</p>
+                    <p style="text-align: justify; text-indent: 50px;">
+                       Pewarnaan Benang,
+                       Pewarnaan benang menggunakan pewarna alami atau sintetis. Pewarna alami sering kali berasal dari tumbuhan seperti kulit kayu, daun, atau akar.</p>
+                    <p style="text-align: justify; text-indent: 50px;">
+                        Persiapan Alat Tenun,
+                        Alat tenun tradisional yang digunakan disebut Gedogan. </p>
+                    <p style="text-align: justify; text-indent: 50px;">
+                        Proses Menenun,
+                        Proses ini dilakukan oleh penenun dengan mengatur pola dan desain yang diinginkan.
+                        Kain ditenun helai demi helai, sehingga memakan waktu lama, terutama untuk motif yang rumit.
+                        Motif-motif khas Pringgasela biasanya terinspirasi dari alam, tradisi, dan kehidupan sehari-hari.</p>
+                    <p style="text-align: justify; text-indent: 50px;">
+                        Finishing,
+                        Setelah kain selesai ditenun, kain dirapikan, seperti memotong benang-benang yang tersisa.
+                        Kain dicuci dan dijemur agar siap digunakan atau dijual. </p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="Pemasaran" class="content-section">
+            <h2>Marketing</h2>
+            <div class="columns">
+                <div class="column">
+                    <img src="alunan budaya 1.jpg" width="200" height="500"
+                    <p> Alunan Budaya Pringgasela Raya Ke-7. Foto: Seremonia.id</p>
+                </div>
+                <div class="column">
+                    <p> <img src="sepatu.jpeg" width="250" height="300" </p>
+                    <p style="text-align: justify; text -indent: 50px;">
+                        Pringgasela kabupaten Lombok timur, NTB merupakan salah satu desa pengerajin kain tenun khas Lombok yang ada di Lombok selain Desa Sade dan Desa Sukarara yang menjadi sentra kain tenun. Indonesia merupakan Negara yang memiliki keanekaragaman budaya. Kain tenun Pringgasela ini merupakan salah satu budaya nasional yang memiliki keunikan tersendiri. Selain sebagai suatu budaya menenun juga menjadi sumber ekonomi. Sebagian besar warga di Desa Pringgasela terutama para wanita berprofesi sebagai penenun, dapat kita lihat di sejumlah teras warga terdapat alat tradisional untuk menenun (Gedogan). hampir semua ibu-ibu Desa Pringgasela bisa menenun dan diajarkan secara turun temurun ke anak gadisnya. Dalam kebudayaan suku sasak para perempuan sasak diwajibkan bisa menenun sebagai salah satu persyaratan untuk menikah.
+                        Dengan majunya globalisasi tidak mengurangi peminat akan kain tenun baik kain songket ataupun ikat. Majunya globalisasi semakin banyak inovasi-inovasi yang dilakukan dengan memanfaatkan kain tenun. Kain-kain tenun tersebut dapat dijadikan sebagai baju, tas, dompet, sal, sepatu, dll.
+                        Konten ini telah tayang di Kompasiana.com dengan judul "Globalisasi Tidak Melunturkan Peminat Kain Tenun", Klik untuk baca:
+                        https://www.kompasiana.com/gayantri/5cbea61a3ba7f726f711cbc2/globalisasi-tidak-melunturkan-peminat-kain-tenun 
+                        Kreator: Riadah Gayantri
+                        Kompasiana adalah platform blog. Konten ini menjadi tanggung jawab bloger dan tidak mewakili pandangan redaksi Kompas.
+                    </p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <img src="Sungai.jpg" width="250" height="150"/>
+                    <p> Sungai Tempasan di Kecamatan Pringgasela. Foto: Tiketcom.</p>
+                    <p style="text-align: justify; text-indent: 50px;">
+                        Cantiknya Kain Tenun di Desa Pringgasela, Lombok Timur. Pulau Lombok, selain terkenal dengan objek wisata alamnya yang indah, juga dikenal dengan hasil tenunnya. Salah satunya yaitu kain tenun Desa Pringgasela. Untuk urusan kain tenun, teman-teman pasti sudah mengenal sejumlah nama yang menjadi tempat penghasil kain tenun khas Lombok yaitu Desa Sade dan Desa Sukarara. Bagaimana dengan Desa Pringgasela? Rupanya sebuah desa yang terletak di Kabupaten Lombok Timur ini juga merupakan desa penghasil kain tenun.
+                        Sungai Tempasan di Kecamatan Pringgasela.   Lokasinya 16 kilometer dari pusat kota kabupaten Lombok Timur yaitu Selong atau sekitar 24 sampai 30 menit menggunakan kendaraan roda dua atau empat. Jalan menuju lokasi relatif mulus, melintasi pemukiman dan perkebunan, tanaman nanas milik warga. 
+                        Sungai Tempasan berada di desa Pringgasela terdapat sebuah sungai yang sangat begitu indah, dengan menawarkan alam yang sangat khas. antara bentangan alam, sawah, dan gunung rinjani. 
+                        sungai tempasan menjadi aliran dari sungai aiq mencerit,dan bisa juga untuk olahraga air seperti arung jeram
+                    </p>
+    </div>
+    <script>
+        function showContent(sectionId) {
+            // Sembunyikan semua konten terlebih dahulu
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => section.classList.remove('active'));
+            
+            // Tampilkan konten yang diklik
+            const activeSection = document.getElementById(sectionId);
+            if (activeSection) {
+                activeSection.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
